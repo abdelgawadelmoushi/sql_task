@@ -11,9 +11,8 @@ from dbo.Employees
 
 --2.	Select only the "Name" and "Salary" columns from the "Employees" table.
 
-select *
+select name , Salary
 from dbo.Employees
-where salary is not null  and  Name is not null 
 
 
 
@@ -134,6 +133,7 @@ select *
 from Employees
 where Salary between 40000 and 60000 
 order by Salary asc
+
 
 
 
